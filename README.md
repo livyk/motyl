@@ -1,4 +1,4 @@
-# motyl [![NPM version][npm-image]][npm-url] ![ci](https://github.com/livyk/motyl/workflows/ci/badge.svg)
+# motyl [![NPM Publish](https://github.com/livyk/motyl/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/livyk/motyl/actions/workflows/npm-publish.yml)
 
 ## Install
 
