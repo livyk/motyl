@@ -3,8 +3,13 @@ import resolve from "@rollup/plugin-node-resolve";
 import typescript from "rollup-plugin-typescript2";
 import packageJson from "./package.json";
 
+const globals = {
+  react: "React",
+};
+
 export default {
   input: "src/index.ts",
+  external: ["react"],
   output: [
     {
       file: `dist/${packageJson.name}.js`,
@@ -12,6 +17,7 @@ export default {
       strict: true,
       sourcemap: true,
       exports: "named",
+      globals,
     },
     {
       file: `dist/${packageJson.name}.esm.js`,
@@ -19,6 +25,7 @@ export default {
       strict: true,
       sourcemap: true,
       exports: "named",
+      globals,
     },
     {
       format: "umd",
@@ -27,6 +34,7 @@ export default {
       strict: true,
       sourcemap: false,
       exports: "named",
+      globals,
     },
   ],
   plugins: [resolve(), commonjs(), typescript()],
