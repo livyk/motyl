@@ -1,4 +1,4 @@
-# motyl [![NPM Publish](https://github.com/livyk/motyl/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/livyk/motyl/actions/workflows/npm-publish.yml)
+# motyl [![NPM Publish](https://github.com/livyk/motyl/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/livyk/motyl/actions/workflows/npm-publish.yml) [![GitHub Logo](https://img.shields.io/npm/v/motyl)](https://www.npmjs.com/package/motyl)
 
 ## Install
 
