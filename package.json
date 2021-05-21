@@ -1,7 +1,7 @@
 {
   "name": "motyl",
   "version": "1.0.2",
-  "description": "A set of helper functions for creating styles in css-in-js libraries",
+  "description": "Helper functions for creating responsive CSS-in-JS styles without runtime",
   "main": "dist/motyl.js",
   "module": "dist/motyl.esm.js",
   "types": "dist/index.d.ts",
