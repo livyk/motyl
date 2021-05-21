@@ -2,7 +2,7 @@
 
 ## Install
 
-A set of helper functions that make it easy to create responsive css-in-js styles. Allows you to create responsive styles and fluid styles without runtime.
+A set of helper functions that make it easy to create responsive css-in-js styles. Allows you to create responsive styles and fluid styles with zero runtime JavaScript calculations.
 
 The package is designed to be used with the mobile first strategy
 
@@ -37,14 +37,14 @@ const {
 
 const Title = styled.h1`
   font-family: 30px;
-  ${up("lg")} //@media(min-width: 1200px) {
+  ${up("lg")} /*@media(min-width: 1200px)*/ {
     font-family: 400px;
   }
-  ${down("md")} //@media(max-width: 899.98px) {
+  ${down("md")} /*@media(max-width: 899.98px)*/ {
     width: 70%;
   }
 
-  ${between("sm", "lg")} //@media(min-width: 600px) and (max-width: 1199.98px) {
+  ${between("sm", "lg")} /*@media(min-width: 600px) and (max-width: 1199.98px)*/ {
     color: #ffffff;
   }
 `;
